@@ -6,4 +6,4 @@ This contains files for the Java code and layout files involved on the demo show
 
 <img width="663" alt="Screenshot 2022-10-02 at 13 18 21" src="https://user-images.githubusercontent.com/44136836/193449200-10d97edf-919f-49d3-aab2-8862603b1e42.png">
 <img width="670" alt="Screenshot 2022-10-02 at 13 18 29" src="https://user-images.githubusercontent.com/44136836/193449210-369e9c51-8a84-4c4c-a579-f470a18fc352.png">
-<img width="647" alt="Screenshot 2022-10-02 at 13 18 34" src="https://user-images.githubusercontent.com/44136836/193449216-70ce6fcb-a4e4-44e8-a5de-a43ec23324e5.png">
+<img width="715" alt="Screenshot 2022-10-02 at 13 22 14" src="https://user-images.githubusercontent.com/44136836/193449344-d3247334-6f03-4db6-8822-e02e7154e09b.png">
