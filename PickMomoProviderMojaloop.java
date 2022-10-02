@@ -122,7 +122,7 @@ public class PickMomoProviderMojaloop extends AppCompatActivity {
 
                 if (pickedMomo!=null) {
 
-                    mojaloopPostLinkingRequestConsent(pickedMomo, mobileMoneyNumber);
+                    mojaloopGetLinkingProviders(pickedMomo, mobileMoneyNumber);
 
 
                 }
@@ -132,12 +132,12 @@ public class PickMomoProviderMojaloop extends AppCompatActivity {
     }
 
 
-    public void mojaloopPostLinkingRequestConsent(String Provider, String MSIDSN){
+    public void mojaloopGetLinkingProviders(String Provider, String MSIDSN){
 
 
         OkHttpClient client1 = new OkHttpClient();
 
-        String url = "/linking/request-consent";
+        String url = "http://localhost:6060/admin/apimgmt#tag/linking/operation/GetLinkingProviders";
 
 
         MediaType mediaType = MediaType.parse("application/json");
