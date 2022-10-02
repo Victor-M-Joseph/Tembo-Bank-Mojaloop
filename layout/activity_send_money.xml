@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sendMoneyActivity"
+    android:background="@drawable/launcher_gradient_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transfer Money"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:fontFamily="@font/kollektif"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="80dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/pick_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/white_dialog_card"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/contact_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/momo"/>
+
+            <LinearLayout
+                android:id="@+id/option1_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/option1_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Send To Mobile Money"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1768BD"/>
+
+                <TextView
+                    android:id="@+id/option1_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pick a recipient from your contacts list."
+                    android:layout_marginTop="5dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+            <!-- option 2 -->
+
+
+    <LinearLayout
+        android:id="@+id/enter_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/white_dialog_card">
+
+        <ImageView
+            android:id="@+id/phone_book"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/bank"/>
+
+        <LinearLayout
+            android:id="@+id/option2_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/option2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send To Bank"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#1768BD"/>
+
+            <TextView
+                android:id="@+id/option2_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send money to a Bank Account"
+                android:layout_marginTop="5dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
