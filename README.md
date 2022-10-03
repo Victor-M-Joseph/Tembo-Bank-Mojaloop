@@ -2,7 +2,7 @@
 Demo of Tembo Bank integration with the Mojaloop Platform during Bootcamp with DFS Lab and Mojaloop Foundation. 
 The demo is built in Android and coded in Java.
 This repository contains files for the Java code and layout files that form the parts of the App that implement the Mojaloop platform.
-This code (Including the layout files in the "layout" folder) run the demo showed during the bootcamp. The screenshots for demo are included in the demo brief but also shown below.
+This code (Including the layout files in the "layout" folder) run the demo showed during the bootcamp. The screenshots for demo are included in the technical brief but also shown below.
 
 <img width="805" alt="Screenshot 2022-10-02 at 13 20 47" src="https://user-images.githubusercontent.com/44136836/193449293-84b44459-8cec-4ace-b8ee-8e8f174e82c0.png">
 
