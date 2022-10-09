@@ -57,9 +57,9 @@ public class EnterOtpMojaloopActivity extends AppCompatActivity {
                 "  \"toParticipantId\": \"dfspa\",\n" +
                 "  \"accounts\": [\n" +
                 "    {\n" +
-                "      \"accountNickname\": \"SpeXXXXXXXXnt\",\n" +
+                "      \"accountNickname\": MSIDSN,\n" +
                 "      \"id\": \"dfspa.username.5678\",\n" +
-                "      \"currency\": \"USD\"\n" +
+                "      \"currency\": \"TZS\"\n" +
                 "    }\n" +
                 "  ],\n" +
                 "  \"actions\": [\n" +
