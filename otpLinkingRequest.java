@@ -91,7 +91,7 @@ public class EnterOtpMojaloopActivity extends AppCompatActivity {
 
                 e.printStackTrace();
 
-                Log.d("Make Deposit:", "getting azamToken Failed");
+                Log.d("Make Deposit:", "getting token Failed");
 
                 e.printStackTrace();
             }
